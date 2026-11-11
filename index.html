@@ -1,0 +1,536 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shri Jagannath Dham — Dedicated to Lord Shri Jagannath, Puri</title>
+    <meta name="description" content="Devotional website dedicated to Lord Shri Jagannath of Puri, Odisha, featuring temple information, rituals, visitor guidelines, and services." />
+    
+    <!-- OpenGraph & Social Sharing Meta -->
+    <meta property="og:title" content="Shri Jagannath Dham — Dedicated to Lord Shri Jagannath, Puri" />
+    <meta property="og:description" content="Devotional website dedicated to Lord Shri Jagannath of Puri, Odisha, featuring temple information, rituals, visitor guidelines, and services." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="theme-color" content="#D50000" />
+
+    <!-- Google Fonts for Traditional Indian Temple Dignity & Modern Legibility -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800&family=Marcellus&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+    <!-- Pure CSS Stylesheet -->
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body>
+    <!-- ======================================================================
+         1. HEADER & BRANDING
+         ====================================================================== -->
+    <header class="site-header" role="banner">
+      <!-- Dignified Top Utility Bar -->
+      <div class="header-topbar">
+        <div class="container topbar-content">
+          <div class="topbar-invocation">
+            <span aria-hidden="true">ॐ</span>
+            <span>जय जगन्नाथ · श्रीक्षेत्र पुरी धाम · Jai Jagannath</span>
+          </div>
+          <div class="topbar-links">
+            <a href="https://shreejagannatha.in/" target="_blank" rel="noopener noreferrer" class="topbar-link">
+              <span>Official Temple Portal: shreejagannatha.in</span>
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Main Branding Area -->
+      <div class="header-branding">
+        <div class="container branding-content">
+          <div class="branding-left">
+            <!-- Original Distinct Devotional Logo of Shri Jagannath Dham -->
+            <a href="/" class="logo-wrapper" aria-label="Shri Jagannath Dham Homepage">
+              <svg class="logo-svg" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Nilachakra and Sacred Temple Emblem">
+                <!-- Outer Golden Beaded Rim -->
+                <circle cx="50" cy="50" r="46" stroke="#FFD43B" stroke-width="2" stroke-dasharray="2 3" />
+                <circle cx="50" cy="50" r="42" fill="#B90000" stroke="#FFD43B" stroke-width="1.5" />
+                
+                <!-- Radiant 8-spoke Nilachakra Symbol -->
+                <circle cx="50" cy="50" r="28" stroke="#FFD43B" stroke-width="2.5" />
+                <line x1="50" y1="22" x2="50" y2="78" stroke="#FFD43B" stroke-width="2" stroke-linecap="round" />
+                <line x1="22" y1="50" x2="78" y2="50" stroke="#FFD43B" stroke-width="2" stroke-linecap="round" />
+                <line x1="30.2" y1="30.2" x2="69.8" y2="69.8" stroke="#FFD43B" stroke-width="2" stroke-linecap="round" />
+                <line x1="30.2" y1="69.8" x2="69.8" y2="30.2" stroke="#FFD43B" stroke-width="2" stroke-linecap="round" />
+                <circle cx="50" cy="50" r="10" fill="#D50000" stroke="#FFD43B" stroke-width="2" />
+                <circle cx="50" cy="50" r="4" fill="#FFD43B" />
+
+                <!-- Fluttering Sacred Patitapabana Flag Atop -->
+                <path d="M49 14 L49 4 L64 9 L49 14 Z" fill="#ffffff" stroke="#FFD43B" stroke-width="1" />
+                <path d="M50 7 L60 9 L50 11 Z" fill="#D50000" />
+                <line x1="49" y1="4" x2="49" y2="22" stroke="#FFD43B" stroke-width="1.8" />
+
+                <!-- Sacred Shankha & Padma Base Motifs -->
+                <path d="M38 74 C42 78 58 78 62 74 C58 72 42 72 38 74 Z" fill="#FFD43B" />
+                <circle cx="50" cy="74" r="2" fill="#B90000" />
+              </svg>
+            </a>
+
+            <!-- Prominent White Website Title & Golden Subtitle -->
+            <div class="brand-text">
+              <h1 class="brand-title">SHRI JAGANNATH DHAM</h1>
+              <p class="brand-subtitle">DEDICATED TO LORD SHRI JAGANNATH, PURI</p>
+            </div>
+          </div>
+
+          <!-- Right Cultural Tag (Bilingual) -->
+          <div class="branding-right-tag" aria-hidden="true">
+            <div class="tag-odia">ଶ୍ରୀ ଜଗନ୍ନାଥ ଧାମ, ପୁରୀ</div>
+            <div class="tag-location">Purusottama Kshetra · Odisha, India</div>
+          </div>
+
+          <!-- Mobile Hamburger Toggle -->
+          <button class="mobile-nav-toggle" id="mobileNavToggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="mainNavList">
+            <span class="toggle-bar"></span>
+            <span class="toggle-bar"></span>
+            <span class="toggle-bar"></span>
+          </button>
+        </div>
+      </div>
+
+      <!-- ====================================================================
+           2. NAVIGATION BAR (7 EXACT MENU ITEMS)
+           ==================================================================== -->
+      <nav class="main-navigation" role="navigation" aria-label="Primary Site Navigation">
+        <div class="container">
+          <ul class="nav-list" id="mainNavList">
+            <!-- 1. LORD SUPREME -->
+            <li class="nav-item has-dropdown">
+              <a href="#lord-supreme" class="nav-link" role="button" aria-haspopup="true" aria-expanded="false">
+                <span>LORD SUPREME</span>
+                <span class="nav-arrow" aria-hidden="true">▼</span>
+              </a>
+              <ul class="dropdown-menu" role="menu">
+                <li class="dropdown-item" role="none"><a href="#about" data-open-modal="todayInTemple" role="menuitem">The Holy Trinity (Chaturdhadaru Murti)</a></li>
+                <li class="dropdown-item" role="none"><a href="#about" data-open-modal="historyInfo" role="menuitem">Origin & Darubrahma Mahatmya</a></li>
+                <li class="dropdown-item" role="none"><a href="#about" data-open-modal="todayInTemple" role="menuitem">Daily Beshas & Sacred Attire</a></li>
+                <li class="dropdown-item" role="none"><a href="#about" data-open-modal="todayInTemple" role="menuitem">Mahaprasad & Anandabazar Tradition</a></li>
+              </ul>
+            </li>
+
+            <!-- 2. THROUGH THE AGES -->
+            <li class="nav-item has-dropdown">
+              <a href="#through-the-ages" class="nav-link" role="button" aria-haspopup="true" aria-expanded="false">
+                <span>THROUGH THE AGES</span>
+                <span class="nav-arrow" aria-hidden="true">▼</span>
+              </a>
+              <ul class="dropdown-menu" role="menu">
+                <li class="dropdown-item" role="none"><a href="#history" data-open-modal="historyInfo" role="menuitem">Historical Chronology of Sri Mandira</a></li>
+                <li class="dropdown-item" role="none"><a href="#history" data-open-modal="historyInfo" role="menuitem">Kalinga Architecture & Vimana Shikhara</a></li>
+                <li class="dropdown-item" role="none"><a href="#history" data-open-modal="historyInfo" role="menuitem">Epigraphs, Inscriptions & Madala Panji</a></li>
+              </ul>
+            </li>
+
+            <!-- 3. LIVING TRADITION -->
+            <li class="nav-item has-dropdown">
+              <a href="#living-tradition" class="nav-link" role="button" aria-haspopup="true" aria-expanded="false">
+                <span>LIVING TRADITION</span>
+                <span class="nav-arrow" aria-hidden="true">▼</span>
+              </a>
+              <ul class="dropdown-menu" role="menu">
+                <li class="dropdown-item" role="none"><a href="#tradition" data-open-modal="todayInTemple" role="menuitem">Chhatisa Nijog (Sevayats & Services)</a></li>
+                <li class="dropdown-item" role="none"><a href="#tradition" data-open-modal="todayInTemple" role="menuitem">Daily Nitis & Ritual Cycles</a></li>
+                <li class="dropdown-item" role="none"><a href="#tradition" data-open-modal="historyInfo" role="menuitem">Annual Festivals & Gundicha Yatra</a></li>
+              </ul>
+            </li>
+
+            <!-- 4. VISITOR SERVICES -->
+            <li class="nav-item has-dropdown">
+              <a href="#visitor-services" class="nav-link" role="button" aria-haspopup="true" aria-expanded="false">
+                <span>VISITOR SERVICES</span>
+                <span class="nav-arrow" aria-hidden="true">▼</span>
+              </a>
+              <ul class="dropdown-menu" role="menu">
+                <li class="dropdown-item" role="none"><a href="#darshan" data-open-modal="darshan" role="menuitem">Darshan Timings & Entry Gates</a></li>
+                <li class="dropdown-item" role="none"><a href="#guidelines" data-open-modal="guidelinesInfo" role="menuitem">Dress Code & Pilgrim Guidelines</a></li>
+                <li class="dropdown-item" role="none"><a href="#guesthouse" data-open-modal="guesthouse" role="menuitem">Bhakta Nivas Accommodations</a></li>
+                <li class="dropdown-item" role="none"><a href="#guidelines" data-open-modal="darshan" role="menuitem">Senior Citizen & Divyang Facilities</a></li>
+              </ul>
+            </li>
+
+            <!-- 5. MANAGEMENT -->
+            <li class="nav-item has-dropdown">
+              <a href="#management" class="nav-link" role="button" aria-haspopup="true" aria-expanded="false">
+                <span>MANAGEMENT</span>
+                <span class="nav-arrow" aria-hidden="true">▼</span>
+              </a>
+              <ul class="dropdown-menu" role="menu">
+                <li class="dropdown-item" role="none"><a href="#management" data-open-modal="officialInfo" role="menuitem">Shree Jagannath Temple Act, 1955</a></li>
+                <li class="dropdown-item" role="none"><a href="#management" data-open-modal="officialInfo" role="menuitem">Temple Managing Committee</a></li>
+                <li class="dropdown-item" role="none"><a href="#management" data-open-modal="officialInfo" role="menuitem">Chief Administrator & SJTA Structure</a></li>
+              </ul>
+            </li>
+
+            <!-- 6. TENDER & ADVERTISEMENT -->
+            <li class="nav-item has-dropdown">
+              <a href="#tenders" class="nav-link" role="button" aria-haspopup="true" aria-expanded="false">
+                <span>TENDER & ADVERTISEMENT</span>
+                <span class="nav-arrow" aria-hidden="true">▼</span>
+              </a>
+              <ul class="dropdown-menu" role="menu">
+                <li class="dropdown-item" role="none"><a href="https://shreejagannatha.in/" target="_blank" rel="noopener noreferrer" role="menuitem">Official SJTA Public Tenders</a></li>
+                <li class="dropdown-item" role="none"><a href="https://shreejagannatha.in/" target="_blank" rel="noopener noreferrer" role="menuitem">Auctions & Procurement Notices</a></li>
+                <li class="dropdown-item" role="none"><a href="https://shreejagannatha.in/" target="_blank" rel="noopener noreferrer" role="menuitem">Official Public Advertisements</a></li>
+              </ul>
+            </li>
+
+            <!-- 7. E-HUNDI SAMARPAN -->
+            <li class="nav-item has-dropdown">
+              <a href="#e-hundi" class="nav-link" role="button" aria-haspopup="true" aria-expanded="false">
+                <span>E-HUNDI SAMARPAN</span>
+                <span class="nav-arrow" aria-hidden="true">▼</span>
+              </a>
+              <ul class="dropdown-menu" role="menu">
+                <li class="dropdown-item" role="none"><a href="#hundi" data-open-modal="hundi" role="menuitem">Digital Hundi Samarpan Details</a></li>
+                <li class="dropdown-item" role="none"><a href="#donation" data-open-modal="donation" role="menuitem">Donations & Offerings Information</a></li>
+                <li class="dropdown-item" role="none"><a href="https://shreejagannatha.in/" target="_blank" rel="noopener noreferrer" role="menuitem">Official SJTA Samarpan Gateway</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main id="main-content" role="main">
+      <!-- ====================================================================
+           3. MAIN TEMPLE PHOTOGRAPH / HERO BANNER
+           ==================================================================== -->
+      <section class="hero-banner" aria-label="Shree Jagannath Temple, Puri Landscape Photograph">
+        <div class="hero-image-wrapper">
+          <img
+            id="heroTempleImg"
+            class="hero-image"
+            src="/src/assets/images/puri_jagannath_temple_hero_1794379831075.jpg"
+            alt="Majestic landscape view of Shree Jagannath Temple in Puri, Odisha showing the ancient stone Vimana shikhara, sanctum, and Nilachakra with fluttering flag"
+            width="1920"
+            height="1080"
+            loading="eager"
+            referrerpolicy="no-referrer"
+          />
+          
+          <!-- Styled CSS Fallback Container if Image Fails or Loads Slowly -->
+          <div id="heroFallback" class="hero-fallback" aria-hidden="true">
+            <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="#FFD43B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+            </svg>
+            <h2 style="font-family: var(--font-serif-display); color: #ffffff; margin-top: 1rem; font-size: 1.5rem;">SHREE JAGANNATH TEMPLE, PURI</h2>
+            <p style="color: #FFD43B; font-size: 0.9rem; margin-top: 0.5rem;">Purusottama Kshetra, Odisha · Char Dham Sacred Pilgrimage</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ====================================================================
+           4. SERVICES BAR (5 EXACT SERVICES)
+           ==================================================================== -->
+      <section class="services-strip" aria-label="Devotee Services">
+        <div class="container">
+          <ul class="services-grid">
+            <!-- 1. TODAY IN THE TEMPLE -->
+            <li>
+              <button type="button" class="service-card-btn" data-service="todayInTemple" aria-label="View Today in the Temple ritual timings">
+                <div class="service-icon-circle" aria-hidden="true">
+                  <!-- Sun / Daily Ritual Icon -->
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="4"/>
+                    <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/>
+                  </svg>
+                </div>
+                <span class="service-label">TODAY IN THE TEMPLE</span>
+              </button>
+            </li>
+
+            <!-- 2. DARSHAN -->
+            <li>
+              <button type="button" class="service-card-btn" data-service="darshan" aria-label="View Darshan guidelines and entry gates">
+                <div class="service-icon-circle" aria-hidden="true">
+                  <!-- Darshan / Sacred Eye Icon -->
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z"/>
+                    <circle cx="12" cy="12" r="3"/>
+                  </svg>
+                </div>
+                <span class="service-label">DARSHAN</span>
+              </button>
+            </li>
+
+            <!-- 3. DONATION & OFFERINGS -->
+            <li>
+              <button type="button" class="service-card-btn" data-service="donation" aria-label="View Donation & Offerings information">
+                <div class="service-icon-circle" aria-hidden="true">
+                  <!-- Sacred Offering / Lotus Hands Icon -->
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/>
+                  </svg>
+                </div>
+                <span class="service-label">DONATION & OFFERINGS</span>
+              </button>
+            </li>
+
+            <!-- 4. HUNDI COLLECTION -->
+            <li>
+              <button type="button" class="service-card-btn" data-service="hundi" aria-label="View Hundi Collection details">
+                <div class="service-icon-circle" aria-hidden="true">
+                  <!-- Hundi Box / Samarpan Icon -->
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <rect width="20" height="14" x="2" y="5" rx="2"/>
+                    <line x1="2" x2="22" y1="10" y2="10"/>
+                    <circle cx="12" cy="15" r="1.5"/>
+                  </svg>
+                </div>
+                <span class="service-label">HUNDI COLLECTION</span>
+              </button>
+            </li>
+
+            <!-- 5. GUEST HOUSE ONLINE BOOKING -->
+            <li>
+              <button type="button" class="service-card-btn" data-service="guesthouse" aria-label="View Guest House Online Booking information">
+                <div class="service-icon-circle" aria-hidden="true">
+                  <!-- Temple Guest House / Bhakta Nivas Icon -->
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
+                    <polyline points="9 22 9 12 15 12 15 22"/>
+                  </svg>
+                </div>
+                <span class="service-label">GUEST HOUSE ONLINE BOOKING</span>
+              </button>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- ====================================================================
+           5. NOTICE SECTION
+           ==================================================================== -->
+      <section class="notice-section" aria-labelledby="noticeHeading">
+        <div class="container">
+          <div class="notice-box">
+            <div class="notice-badge" aria-hidden="true">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+              <span>IMPORTANT NOTICE & DISCLAIMER</span>
+            </div>
+            
+            <h2 class="notice-heading" id="noticeHeading">INDEPENDENT DEVOTIONAL INITIATIVE</h2>
+            
+            <p class="notice-text-primary">
+              Shri Jagannath Dham is an independent devotional website created to share information and devotional content about Lord Shri Jagannath.
+            </p>
+            
+            <p class="notice-text-secondary">
+              For official temple information, please visit the official website.
+            </p>
+
+            <div class="notice-action">
+              <a href="https://shreejagannatha.in/" target="_blank" rel="noopener noreferrer" class="btn-official-website">
+                <span>VISIT OFFICIAL TEMPLE WEBSITE (SHREEJAGANNATHA.IN)</span>
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ====================================================================
+           6. QUICK INFORMATION SECTION (3 EXACT CARDS)
+           ==================================================================== -->
+      <section class="quick-info-section" aria-labelledby="quickInfoTitle">
+        <div class="container">
+          <div class="section-header">
+            <h2 class="section-title" id="quickInfoTitle">QUICK INFORMATION</h2>
+          </div>
+
+          <div class="cards-grid">
+            <!-- Card 1: TEMPLE HISTORY -->
+            <article class="info-card">
+              <div class="card-top">
+                <div class="card-icon-wrapper" aria-hidden="true">
+                  <!-- Ancient Manuscript / Chronicle Icon -->
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1-2.5-2.5Z"/>
+                    <path d="M6 6h10M6 10h10"/>
+                  </svg>
+                </div>
+                <h3 class="card-title">TEMPLE HISTORY</h3>
+                <p class="card-snippet">
+                  Discover the sacred history of Sri Mandira, the 12th-century Kalinga architectural masterpiece erected by King Chodaganga Deva, and the eternal spiritual legend of Darubrahma.
+                </p>
+              </div>
+              <div class="card-action">
+                <button type="button" class="btn-card-action" data-info="historyInfo" aria-label="Read more about Temple History">
+                  <span>READ HISTORY</span>
+                  <span aria-hidden="true">→</span>
+                </button>
+              </div>
+            </article>
+
+            <!-- Card 2: VISITOR GUIDELINES -->
+            <article class="info-card">
+              <div class="card-top">
+                <div class="card-icon-wrapper" aria-hidden="true">
+                  <!-- Shield / Protocol Guidelines Icon -->
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                    <path d="m9 12 2 2 4-4"/>
+                  </svg>
+                </div>
+                <h3 class="card-title">VISITOR GUIDELINES</h3>
+                <p class="card-snippet">
+                  Essential pilgrimage information for devotees, including traditional dress codes, entry gate protocols, cloakroom locations, and sanctity guidelines inside the temple complex.
+                </p>
+              </div>
+              <div class="card-action">
+                <button type="button" class="btn-card-action" data-info="guidelinesInfo" aria-label="View Visitor Guidelines">
+                  <span>VIEW GUIDELINES</span>
+                  <span aria-hidden="true">→</span>
+                </button>
+              </div>
+            </article>
+
+            <!-- Card 3: OFFICIAL TEMPLE WEBSITE -->
+            <article class="info-card">
+              <div class="card-top">
+                <div class="card-icon-wrapper" aria-hidden="true">
+                  <!-- Official Government / Temple Crest Icon -->
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="10"/>
+                    <line x1="2" x2="22" y1="12" y2="12"/>
+                    <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+                  </svg>
+                </div>
+                <h3 class="card-title">OFFICIAL TEMPLE WEBSITE</h3>
+                <p class="card-snippet">
+                  Direct gateway to the Shree Jagannath Temple Administration (SJTA) official portal for official notices, E-Hundi donations, room reservations, and temple administration updates.
+                </p>
+              </div>
+              <div class="card-action">
+                <button type="button" class="btn-card-action" data-info="officialInfo" aria-label="Access Official Portal Details">
+                  <span>OFFICIAL PORTAL</span>
+                  <span aria-hidden="true">→</span>
+                </button>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- ======================================================================
+         7. FOOTER
+         ====================================================================== -->
+    <footer class="site-footer" role="contentinfo">
+      <div class="footer-top">
+        <div class="container footer-grid">
+          <!-- Column 1: Brand & Sacred Invocation -->
+          <div class="footer-brand">
+            <div class="footer-logo-lockup">
+              <div class="footer-logo">
+                <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                  <circle cx="50" cy="50" r="42" fill="#B90000" stroke="#FFD43B" stroke-width="2" />
+                  <circle cx="50" cy="50" r="28" stroke="#FFD43B" stroke-width="2.5" />
+                  <line x1="50" y1="22" x2="50" y2="78" stroke="#FFD43B" stroke-width="2" />
+                  <line x1="22" y1="50" x2="78" y2="50" stroke="#FFD43B" stroke-width="2" />
+                  <circle cx="50" cy="50" r="10" fill="#D50000" stroke="#FFD43B" stroke-width="2" />
+                  <path d="M49 14 L49 4 L64 9 L49 14 Z" fill="#ffffff" stroke="#FFD43B" stroke-width="1" />
+                </svg>
+              </div>
+              <div>
+                <div class="footer-brand-title">SHRI JAGANNATH DHAM</div>
+                <div class="footer-brand-subtitle">Devotional Web Portal · Puri</div>
+              </div>
+            </div>
+            <p class="footer-about-text">
+              An independent devotional homage dedicated to the Lord of the Universe, Mahaprabhu Shri Jagannath, and His eternal divine leelas in Purusottama Kshetra, Puri.
+            </p>
+            <div class="footer-mantra">
+              "କାଳିଆ ସାଆନ୍ତେ ହେ, ତୁମେ ଆମର ଏକମାତ୍ର ଭରସା ।"
+            </div>
+          </div>
+
+          <!-- Column 2: Sacred Navigation -->
+          <div>
+            <h3 class="footer-heading">DEVOTIONAL LINKS</h3>
+            <ul class="footer-nav-list">
+              <li class="footer-nav-item"><a href="#about" class="footer-nav-link" data-open-modal="todayInTemple">Daily Temple Nitis</a></li>
+              <li class="footer-nav-item"><a href="#history" class="footer-nav-link" data-open-modal="historyInfo">Sri Mandira History</a></li>
+              <li class="footer-nav-item"><a href="#darshan" class="footer-nav-link" data-open-modal="darshan">Darshan Regulations</a></li>
+              <li class="footer-nav-item"><a href="#guidelines" class="footer-nav-link" data-open-modal="guidelinesInfo">Visitor Guidelines</a></li>
+              <li class="footer-nav-item"><a href="#guesthouse" class="footer-nav-link" data-open-modal="guesthouse">Bhakta Nivas Information</a></li>
+            </ul>
+          </div>
+
+          <!-- Column 3: Temple Tradition -->
+          <div>
+            <h3 class="footer-heading">LIVING TRADITIONS</h3>
+            <ul class="footer-nav-list">
+              <li class="footer-nav-item"><a href="#tradition" class="footer-nav-link" data-open-modal="todayInTemple">Chhatisa Nijog</a></li>
+              <li class="footer-nav-item"><a href="#tradition" class="footer-nav-link" data-open-modal="todayInTemple">Mahaprasad & Anandabazar</a></li>
+              <li class="footer-nav-item"><a href="#tradition" class="footer-nav-link" data-open-modal="historyInfo">Annual Ratha Yatra</a></li>
+              <li class="footer-nav-item"><a href="#hundi" class="footer-nav-link" data-open-modal="hundi">Hundi Samarpan Rules</a></li>
+            </ul>
+          </div>
+
+          <!-- Column 4: Official Administration Gateway -->
+          <div>
+            <h3 class="footer-heading">OFFICIAL TEMPLE PORTAL</h3>
+            <div class="footer-official-box">
+              <p class="footer-official-text">
+                For verified administrative notifications, official online room bookings, and government-managed Hundi Samarpan, visit the statutory temple website:
+              </p>
+              <a href="https://shreejagannatha.in/" target="_blank" rel="noopener noreferrer" class="btn-footer-link">
+                <span>shreejagannatha.in</span>
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bottom Disclaimer & Copyright Bar -->
+      <div class="footer-bottom">
+        <div class="container footer-bottom-content">
+          <p class="disclaimer-text">
+            <strong>Independent Website Disclaimer:</strong> Shri Jagannath Dham is an independent devotional website created solely for educational, cultural, and spiritual reference. It is not owned, operated, or endorsed by the Shree Jagannath Temple Administration (SJTA), Puri. All official administrative decisions, certified notices, tenders, and reservations reside strictly under the purview of SJTA at <a href="https://shreejagannatha.in/" target="_blank" rel="noopener noreferrer" style="color: var(--color-temple-gold-bright); text-decoration: underline;">shreejagannatha.in</a>.
+          </p>
+          <div class="copyright-text">
+            © 2026 Shri Jagannath Dham. All original website content and layout rights reserved.
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- ======================================================================
+         8. ACCESSIBLE DEVOTIONAL MODAL SYSTEM
+         (Prevents dead clicks, delivers rich authentic guidance with official links)
+         ====================================================================== -->
+    <div id="templeModal" class="modal-overlay" role="dialog" aria-modal="true" aria-hidden="true" aria-labelledby="modalTitle">
+      <div class="modal-dialog">
+        <div class="modal-header">
+          <div class="modal-title-wrap">
+            <div class="modal-icon" id="modalIcon" aria-hidden="true"></div>
+            <h3 class="modal-title" id="modalTitle">Modal Title</h3>
+          </div>
+          <button type="button" class="modal-close-btn" id="modalCloseBtn" aria-label="Close dialog">&times;</button>
+        </div>
+        <div class="modal-body" id="modalBody">
+          <!-- Populated dynamically via Vanilla JS -->
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn-modal-secondary" id="modalDismissBtn">Close</button>
+          <a href="#" target="_blank" rel="noopener noreferrer" class="btn-modal-primary" id="modalActionBtn">
+            <span>Visit Official Website</span>
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Vanilla Script -->
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

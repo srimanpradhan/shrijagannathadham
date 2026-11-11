@@ -1,0 +1,6 @@
+{
+  "name": "Shri Jagannath Dham",
+  "description": "Devotional website dedicated to Lord Shri Jagannath of Puri, Odisha, featuring temple information, rituals, visitor guidelines, and services.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
